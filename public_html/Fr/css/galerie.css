@@ -1,0 +1,88 @@
+.test0 {
+    width: 100% !important;
+    height: 552px !important;
+    /* max-height: 60% !important; */
+    box-shadow: 20px 13px 5px var(--couleur-bleu);
+    margin: 25px;
+    object-fit: cover !important;
+    
+}
+
+.test1 {
+    width: 100% !important;
+    /* max-height: 60% !important; */
+    height: 552px !important;
+    margin: 25px;
+    box-shadow: 25px -16px 5px var(--couleur-bleu-turque);
+    object-fit: cover !important;
+}
+.test2 {
+    width: 100% !important;
+    /* max-height: 60% !important; */
+    height: 552px !important;
+    margin: 25px;
+    filter: drop-shadow(30px 10px 5px var(--couleur-gris));
+    object-fit: cover !important;
+    /* object-fit: none !important; */
+}
+
+
+.selecteur {
+    background-color:darkgray;
+}
+
+@keyframes move {
+    from {
+        left: -50%;
+    }
+
+    to {
+        left: 100%;
+    }
+
+}
+.test0:hover{
+    left: 34px!important;
+    animation-name: move !important;
+    animation-duration: 2s !important;
+    animation-iteration-count: infinite !important;
+}
+    
+
+section .app {
+    visibility: hidden;
+}
+
+body .slider1 {
+
+    background-color: #fff !important;
+    ;
+}
+
+.cardList {
+    display: none;
+
+}
+
+section .app {
+    display: none;
+}
+
+svg {
+    display: none;
+}
+
+section .app {
+    /* display:flex; */
+    display: none;
+    /* background-color:red; */
+    visibility: hidden;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+
+body .slider1 {
+    width: 0 !important;
+    height: 0 !important;
+}

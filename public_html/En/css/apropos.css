@@ -1,0 +1,187 @@
+/* Chiffres Clés */
+.chiffres-cles {
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.chiffres-header {
+    margin-bottom: 5%;
+    color: var(--couleur-blanc);
+    text-shadow: 1px 1px 2px black;
+}
+
+.chiffres-wrapper h2 {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
+}
+
+.icon-card {
+    background: none;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--bleu-turque);
+}
+
+/* MAPS */
+section.maps {
+    display: flex-box;
+}
+
+section h2.map-transports {
+    color: var(--couleur-blanc);
+    text-shadow: 1px 1px 2px black;
+}
+
+/* Actualités */
+#actus {
+    width: auto;
+    margin: 2em auto;
+    background: var(--couleur-blanc-mauve);
+    /* color: #fff; */
+    border: 1px solid #555;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font: 80%/1.5 Arial, sans-serif;
+    width: 80%;
+}
+
+#container-actus {
+    overflow: hidden;
+
+}
+
+#container-actu-inner {
+    position: relative;
+}
+
+div.actualites {
+    padding: 1em;
+    position: relative;
+}
+
+div.actualites h2 {
+    font: normal 1.7em Impact, sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid #444;
+    margin: 0;
+    letter-spacing: 2px;
+    color: #DC493A;
+    text-shadow: 1px 1px 1px #333;
+}
+
+div.actualites p {
+    margin: 0 0 0.5em 0;
+    font-size: 15px;
+}
+
+.img-lien {
+    display: block;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 1.5);
+    margin: auto;
+}
+
+.actu-paragraphe {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.actu-title {
+    display: block;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+p {
+    vertical-align: middle;
+
+}
+
+.test3 {
+    display: flex;
+    background-color: var(--couleur-red);
+    color: var(--couleur-blanc-mauve);
+    border-radius: 10px;
+    padding: 40px;
+    margin-left: 10px;
+    width: 200px;
+    height: 300px;
+    transition: transform 1s;
+    text-align: center;
+    box-shadow: 5px 5px 5px var(--couleur-bronze);
+
+}
+
+.first-set {
+    display: flex;
+    justify-content: center;
+}
+
+.second-set {
+    display: flex;
+    justify-content: center;
+
+}
+
+.three-set {
+    display: flex;
+    justify-content: center;
+
+}
+
+.test3:hover {
+    opacity: 0.8;
+    transform: rotateY(360deg);
+}
+
+.cardList {
+    display: none;
+
+}
+
+section .app {
+    display: none;
+}
+
+svg {
+    display: none;
+}
+
+section .app {
+    /* display:flex; */
+    display: none;
+    /* background-color:red; */
+    visibility: hidden;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+
+body .slider1 {
+    width: 0 !important;
+    height: 0 !important;
+}
+
+/* Effets paralax */
+.parallax {
+    z-index: -1;
+    background-image: url(https://i.ibb.co/QngW3yM/20211019-102651.jpg);
+    min-height: 200vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Effets paralax */
+
+

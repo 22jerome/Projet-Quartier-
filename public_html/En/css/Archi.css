@@ -1,0 +1,224 @@
+#thumbs img {
+    width:100%;
+}
+#thumbs {
+    list-style: none outside none;
+    /* On supprime le style de la liste par défaut */
+    margin: 0 auto;
+    /* La galerie est centrée horizontalement */
+    padding: 0;
+    width: 30%;
+}
+
+#thumbs li {
+    float: left;
+    height: 100%;
+    margin: 0;
+    padding: 5px;
+    position: relative;
+    width: 150px;
+    z-index: 10;
+}
+
+#thumbs li:hover {
+    z-index: 100;
+    /* Nécessaire pour Firefox */
+}
+
+#thumbs li img {
+    border: 5px solid #fff;
+    z-index: 100;
+    transition: transform 0.25s ease-in-out;
+    -moz-transition: -moz-transform 0.25s ease-in-out;
+    -o-transition: -o-transform 0.25s ease-in-out;
+    -webkit-transition: -webkit-transform 0.25s ease-in-out;
+    transform: scale(0.75);
+    /* On réduit l'image à 75% */
+    -moz-transform: scale(0.75);
+    -o-transform: scale(0.75);
+    -webkit-transform: scale(0.75);
+}
+#thumbs:hover li img {
+    opacity: 0.5;
+    /* Au survol de la galerie, toute les images auront une opacité de 50% */
+}
+
+#thumbs li:hover img {
+    opacity: 1;
+    /* L'image survolée aura une opacité de 100% */
+    z-index: 100;
+    transform: scale(1);
+    /* On affiche l'image à sa taille normale */
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transform: scale(1);
+    box-shadow: 1px 1px 10px #000;
+    /* On ajoute une ombre */
+    -moz-box-shadow: 1px 1px 10px #000;
+    -o-box-shadow: 1px 1px 10px #000;
+    -webkit-box-shadow: 1px 1px 10px #000;
+}
+
+section img{
+    object-fit: cover;
+}
+
+
+
+body {
+    background-color: #f2f2f2;
+}
+
+header {
+    width: 100%;
+    background-color: #77cdb4;
+    text-align: center;
+}
+
+em {
+    color: #232027;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 40px auto;
+    align-items: center;
+}
+
+div.gallery {
+    margin-top: 30px;
+}
+
+div.gallery ul {
+    list-style-type: none;
+    margin-left: 35px;
+}
+
+/* animation */
+div.gallery ul li,
+div.gallery li img {
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+div.gallery ul li {
+    position: relative;
+    float: left;
+    width: 230px;
+    height: 230px;
+    margin: 5px;
+    padding: 5px;
+    z-index: 0;
+}
+
+/* Make sure z-index is higher on hover */
+/* Ensure that hover image overlapped the others */
+div.gallery ul li:hover {
+    z-index: 5;
+}
+
+/* Image is position nicely under li */
+div.gallery ul li img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid #dddddd;
+    padding: 5px;
+    width: 230px;
+    height: 230px;
+    background: #f0f0f0;
+}
+
+div.gallery ul li img:hover {
+    width: 400px;
+    height: 400px;
+    margin-top: -130px;
+    margin-left: -130px;
+    top: 65%;
+    left: 65%;
+}
+
+p.attribution {
+    font-family: 'Consolas';
+    color: #000;
+    clear: both;
+    text-align: center;
+    line-height: 25px;
+    padding-top: 30px;
+}
+
+p.attribution a {
+    color: #4c8d7c;
+}
+
+/* Responsive hack */
+
+
+@media only screen and (max-width: 498px) {
+    div.gallery ul {
+        list-style-type: none;
+        margin: 0;
+    }
+}
+section .app {
+    visibility: hidden;
+}
+
+body .slider1 {
+
+    background-color: #fff !important;
+    ;
+}
+
+#titre1{
+    margin:auto;
+}
+h1 {
+    display: block;
+    padding-top:15px;
+    color: black !important;
+    text-align: center;
+}
+.cardList {
+    display: none;
+
+}
+
+section .app {
+    display: none;
+}
+
+svg {
+    display: none;
+}
+
+section .app {
+    /* display:flex; */
+    /* display: none; */
+    /* background-color:red; */
+    visibility: hidden;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+
+body .slider1 {
+    visibility: hidden;
+    width: 100% !important;
+    height: 190px !important;
+}
+
+/* Effets paralax */
+.parallax{
+    z-index: -1;
+    background-image: url(https://i.ibb.co/1ddyyfX/20211019-103737.png);
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height: 200vh; */
+}
+/* Effets paralax */
+

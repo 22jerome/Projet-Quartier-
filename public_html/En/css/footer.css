@@ -1,0 +1,74 @@
+#gradient {
+    height: 103px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* footer {
+    
+    /* margin-top:25% */
+    
+    
+div#gradient2 {
+    /* position: absolute; */
+    height: 103px;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 1350px; */
+}
+
+a#texte {
+    margin: auto;
+}
+
+footer img#logo1 {
+    /* height: 86px!important;
+    width: 64px !important; */
+    /* padding-right:25%;*/
+    padding-left: 3%;
+}
+
+#texte {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    margin: auto;
+}
+
+#texte {
+    text-decoration: none;
+    justify-content: center;
+}
+
+#texte:visited {
+    color: black;
+}
+#texte:hover {
+    color: rgb(60, 131, 180);
+}
+
+.logos {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3%;
+}
+
+.instagram {
+    height: 50px;
+    padding-left: 2px;
+    padding-right: 2px;
+
+}
+
+.facebook {
+    height: 50px;
+}
+
+.linkedin {
+    height: 50px;
+}
